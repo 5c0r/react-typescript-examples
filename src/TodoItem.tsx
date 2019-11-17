@@ -18,6 +18,7 @@ export class TodoItem extends Component<TodoProps, TodoItemState> {
   // TODO: Find good Typescript React convention
   constructor(props: TodoProps) {
     super(props);
+    
     this.state = {
       editable: false,
       label: props.label
